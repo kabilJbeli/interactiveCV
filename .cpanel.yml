@@ -1,6 +1,6 @@
 
+---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/user/public_html/
-    - index.html $DEPLOYPATH
-    - /view/css/ style.css $DEPLOYPATH
+    - export DEPLOYPATH=/home/kabiljbe/public_html/
+  
