@@ -1,7 +1,6 @@
-
-
+---
   deployment:
       tasks:
-        - export DEPLOYPATH=/home/<username>/public_html/<app_folder>
+        - export DEPLOYPATH=/home/kabiljbe/public_html/
         - /bin cp * $DEPLOYPATH 
-        - /bin cp /view/* 
+   
