@@ -1,3 +1,15 @@
-RewriteEngine On
+RewriteEngine on
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http://kabiljbeli.tn/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://kabiljbeli.tn$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.kabiljbeli.tn/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.kabiljbeli.tn$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://kabiljbeli.tn/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://kabiljbeli.tn$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.kabiljbeli.tn/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.kabiljbeli.tn$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp)$ - [F,NC]
+
