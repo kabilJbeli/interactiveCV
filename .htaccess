@@ -13,3 +13,5 @@ RewriteCond %{HTTP_REFERER} !^https://www.kabiljbeli.tn/.*$      [NC]
 RewriteCond %{HTTP_REFERER} !^https://www.kabiljbeli.tn$      [NC]
 RewriteRule .*\.(jpg|jpeg|gif|png|bmp)$ - [F,NC]
 
+ErrorDocument 400 /400.shtml
+ErrorDocument 500 /500.shtml
