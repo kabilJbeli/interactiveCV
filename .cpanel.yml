@@ -4,5 +4,5 @@
         - export DEPLOYPATH=/home/kabiljbe/public_html/
         - /bin/cp * $DEPLOYPATH
         - /bin cp * $DEPLOYPATH 
-        - /bin cp /fr/*
-        - /bin cp /en/*
+        - /bin cp /fr/* $DEPLOYPATH
+        - /bin cp /en/* $DEPLOYPATH
