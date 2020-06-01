@@ -654,3 +654,9 @@ figure.effect:hover p {
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
 }
+.btn-group.bootstrap-select.fit-width {
+    position: absolute;
+    z-index: 33;
+    right: 15px;
+    top: 15px;
+}

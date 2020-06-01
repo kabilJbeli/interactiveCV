@@ -14,7 +14,11 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css" rel="stylesheet" type="text/css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" rel="stylesheet" type="text/css">
+		
 	<link href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
 	<link href="view/style.css" rel="stylesheet" type="text/css">
 	
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -51,7 +55,9 @@
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MC87JC7');</script>
+})(window,document,'script','dataLayer','GTM-MC87JC7');
+
+</script>
 <!-- End Google Tag Manager -->
 </head>
 <body data-spy="scroll" data-target="#navbar-example" class="fixed" style="">	 
@@ -64,7 +70,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<h1>Kabil Jbeli</h1>
 			<p class="lead">Front End Web developer</p>
 		</div>
-		
+		<select class="selectpicker" data-width="fit" onchange="changeLanguage(event)">
+    <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+  <option  data-content='<span class="flag-icon flag-icon-fr"></span> French'>French</option>
+</select>
 		<div class="overlay"></div>
 		
 <a href="#profile" class="scroll-down">	
@@ -1723,6 +1732,7 @@ A Front End developer Skilled in web development using multiple JS frameworks (R
 	<!-- Bootstrap core JavaScript -->
 	<script  src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script  src="view/js/script.js"></script>
+		<script  src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
 	<script  src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.2.0/bootstrap.min.js"></script>
 	
 	<!-- Google Analytics -->

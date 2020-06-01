@@ -13,7 +13,9 @@
 	<!-- Bootstrap core CSS -->
 
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css">	
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css" rel="stylesheet" type="text/css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" rel="stylesheet" type="text/css">
 	<link href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="view/style.css" rel="stylesheet" type="text/css">
 	
@@ -64,7 +66,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<h1>Kabil Jbeli</h1>
 			<p class="lead">Développeur Web Front End</p>
 		</div>
-		
+			<select class="selectpicker" data-width="fit" onchange="changeLanguage(event)">
+			  <option  data-content='<span class="flag-icon flag-icon-fr"></span> French'>Francais</option>
+
+    <option data-content='<span class="flag-icon flag-icon-us"></span> English'>Anglais</option>
+</select>
 		<div class="overlay"></div>
 		
 <a href="#profile" class="scroll-down">	
@@ -99,7 +105,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div id="profile" class="container">
 			<h2>Profil</h2>
 <p class="lead">Je suis un développeur Web Front End</p>
-
 <hr>
 
 <div class="row">
@@ -1722,6 +1727,8 @@ Développeur Front End Compétent en développement web utilisant plusieurs fram
 	<!-- Bootstrap core JavaScript -->
 	<script  src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script  src="view/js/script.js"></script>
+			<script  src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
+
 	<script  src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.2.0/bootstrap.min.js"></script>
 	
 	<!-- Google Analytics -->
