@@ -657,6 +657,6 @@ figure.effect:hover p {
 .btn-group.bootstrap-select.fit-width {
     position: absolute;
     z-index: 33;
-    right: 15px;
-    top: 15px;
+    right: 5%;
+    top: 5%;
 }
