@@ -654,6 +654,25 @@ figure.effect:hover p {
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
 }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    outline: none !important;
+}
+span.flag-icon.flag-icon-us {
+    margin-right: 5px;
+}
+button.btn.dropdown-toggle.selectpicker.btn-default:focus {
+    border: none !important;
+    outline: none !important;
+}
+.dropdown-menu.open {
+    border-radius: 0px;
+}
+button.btn.dropdown-toggle.selectpicker.btn-default {
+    background: none;
+    border: none;
+    color: #fff;
+    box-shadow: none !important;
+}
 .btn-group.bootstrap-select.fit-width {
     position: absolute;
     z-index: 33;
