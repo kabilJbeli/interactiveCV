@@ -3,3 +3,4 @@
       tasks:
         - export DEPLOYPATH=/home/kabiljbe/public_html/
         - /bin/cp * $DEPLOYPATH
+        - /bin cp * $DEPLOYPATH 
