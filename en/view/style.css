@@ -657,7 +657,7 @@ figure.effect:hover p {
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
     outline: none !important;
 }
-span.flag-icon.flag-icon-us {
+span.flag-icon.flag-icon-us ,span.flag-icon.flag-icon-fr{
     margin-right: 5px;
 }
 button.btn.dropdown-toggle.selectpicker.btn-default:focus {
