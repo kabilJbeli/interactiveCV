@@ -365,6 +365,9 @@ hr {
 }
 
 /* #projects .row { margin: 0px; } // bootstrap 3.1- hack */
+#projects p {
+    font-size: 14px;
+}
 
 #projects .row>div {
 	margin-bottom: 30px;
@@ -641,7 +644,7 @@ figure.effect:hover h3::after {
 }
 
 figure.effect p {
-	padding-top: 10px;
+	padding-top: 0px;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
