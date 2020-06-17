@@ -682,3 +682,17 @@ button.btn.dropdown-toggle.selectpicker.btn-default {
     right: 5%;
     top: 5%;
 }
+div#download a:hover{
+	opacity:0.6;
+}
+div#download a {
+    display: table;
+    float: none;
+    margin: auto;
+    width: auto !important;
+    background: #fff;
+    padding: 5px 15px;
+    color: #22A39F;
+	font-weight: 600;
+	text-decoration:none;
+}
