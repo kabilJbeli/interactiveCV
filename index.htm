@@ -7,14 +7,18 @@
 	<meta name="author" content="Kabil Jbeli">	
 	<meta name="description" content="I'm Kabil Jbeli a professional front-end developer and a web designer producing high quality responsive websites and exceptional user experience.">
 	<meta name="keywords" content="Kabil Jbeli, Interactive Resume, Front End developer, Front End Web developer Tunisia, Full Stack developer, Full Stack developer Tunisia, Resume, CV, AngularJS, Angular 2+, React JS, CSS, Algorithms, PHP, MySQL, Angular 7, JavaScript, front-end developer, front-end development ">
-	<meta name="robots" content="index, follow">
+	<meta name="robots" content="index, follow, noimageindex">
 	<meta name="revisit-after" content="7 days">		
 	<title>Kabil Jbeli - Front End Web Developer - Interactive Resume</title>	
 	<!-- Bootstrap core CSS -->
 
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css" rel="stylesheet" type="text/css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" rel="stylesheet" type="text/css">
+		
 	<link href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
 	<link href="view/style.css" rel="stylesheet" type="text/css">
 	
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -51,7 +55,9 @@
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MC87JC7');</script>
+})(window,document,'script','dataLayer','GTM-MC87JC7');
+
+</script>
 <!-- End Google Tag Manager -->
 </head>
 <body data-spy="scroll" data-target="#navbar-example" class="fixed" style="">	 
@@ -62,9 +68,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<div id="top" class="jumbotron" data-src="view/images/coffee_animation.gif" data-position="center center" style="height: 408px;">
 		<div class="container">
 			<h1>Kabil Jbeli</h1>
-			<p class="lead">Front End Web developer</p>
+			<p class="lead">Web developer</p>
 		</div>
-		
+		<select class="selectpicker" data-width="fit" onchange="changeLanguage(event)">
+    <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+  <option  data-content='<span class="flag-icon flag-icon-fr"></span> French'>French</option>
+</select>
 		<div class="overlay"></div>
 		
 <a href="#profile" class="scroll-down">	
@@ -88,8 +97,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="#profile">Profile</a></li>
 				<li class=""><a href="#experiences">Experiences</a></li>
-				<li class=""><a href="#educations">Educations</a></li><li class=""><a href="#abilities">Abilities</a></li>
-									
+				<li class=""><a href="#educations">Educations</a></li>
+				<li class=""><a href="#abilities">Abilities</a></li>
+				<li class=""><a href="#projects">Projects</a></li>
 				<li class=""><a href="#contact">Contact</a></li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
@@ -98,7 +108,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<div class="background-white">
 		<div id="profile" class="container">
 			<h2>Profile</h2>
-<p class="lead">I'm a creative Front End web developer</p>
+<p class="lead">I'm a creative web developer</p>
 
 <hr>
 
@@ -106,7 +116,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="col-md-4">
 	<h3>About me</h3>
 	<p>
-A Front End developer Skilled in web development using multiple JS frameworks (React JS, Angular JS, Angular 2+,...) with a university degree in communication and multimedia and currently attending a Master's degree in Software Engineering while still working as a front end web developer with more than 3 years of experience. 
+A Front End developer Skilled in web development using multiple JS frameworks (React JS, Angular JS, Angular 2+,...) with a university degree in communication and multimedia and currently attending a Master's degree in Software Engineering while still working as a front end web developer with more than 4 years of experience. 
 		</p>
 </div>
 <div class="col-md-4 text-center">
@@ -133,23 +143,53 @@ A Front End developer Skilled in web development using multiple JS frameworks (R
 </p>
 
 <hr>
-
+<!--
 		<div class="alert alert-danger text-center">
-			<strong>Looking for a new challenge as a Full Stack Developer or as a Front End Developer. </strong>
-		</div>
+			<strong>Open to a new challenge as a Full Stack developer or as a front end developer. </strong>
+		</div>-->
 
 <h3>Careers</h3>
 
 <div class="experiences">
-
+<div class="experience row">
+	<div class="col-md-4">
+		<h4>VERMEG | Banking & Insurance Software
+</h4>
+		<p class="experience-period">
+			Sep 2020			- 
+			Currently		</p>
+	</div>
+	<div class="col-md-8">
+		<p>
+			<strong>Fulltime - Analyst Developer</strong>
+			<span class="hidden-phone">
+					Working as a Analyst Developer on Palmyra project at vermeg.						</span>
+			<span class="experience-details">
+				<span class="location">
+					<span class="glyphicon glyphicon-map-marker"></span>
+					Tunis					</span>
 				
+									
+				<span class="seperator">|</span>
+				<span class="link">
+					<span class="glyphicon glyphicon-link"></span>
+					<a href="https://www.vermeg.com" target="_blank">https://www.vermeg.com</a>
+				</span>
+				
+									
+			</span>
+		</p>
+	</div>
+</div>
+
+		
 <div class="experience row">
 	<div class="col-md-4">
 		<h4>Minotore | Market finance expertise
 </h4>
 		<p class="experience-period">
 			Jul 2016				- 
-			current			</p>
+			Aug 2020			</p>
 	</div>
 	<div class="col-md-8">
 		<p>
@@ -173,7 +213,6 @@ A Front End developer Skilled in web development using multiple JS frameworks (R
 		</p>
 	</div>
 </div>
-
 				
 <div class="experience row">
 	<div class="col-md-4">
@@ -215,14 +254,41 @@ A Front End developer Skilled in web development using multiple JS frameworks (R
 </p>
 
 <hr>
-
+<!--
 <div class="alert alert-danger text-center">
-<strong>Looking for a new challenge as a Full Stack Developer or as a Front End Developer. </strong>
-</div>
+<strong>Open to a new challenge as a Full Stack developer or as a front end developer.</strong>
+</div>-->
 
 <h3>Educations</h3>
 
 <div class="experiences">
+
+<div class="experience row">
+	<div class="col-md-4">
+		<h4>Ecole Polytechnique Internationale</h4>
+		<p class="experience-period">
+			Sep 2020				- 
+			Currently		</p>
+	</div>
+	<div class="col-md-8">
+		<p>
+			<strong>Engineer's degree - Information Systems And Software</strong>
+			<span class="hidden-phone">
+				The education is mainly about software engineering and information technologies, it's based on learning about Java, Symfony, .Net, Database and software architecture.			
+			</span>
+			<span class="experience-details">
+				<span class="location">
+					<span class="glyphicon glyphicon-map-marker"></span>
+					Les berges du lac 1	</span>
+					<span class="seperator">|</span>
+					<span class="link">
+						<span class="glyphicon glyphicon-link"></span>
+						<a href="http://pi.tn" target="_blank">http://pi.tn</a>
+					</span>
+			</span>
+		</p>
+	</div>
+</div>
 
 				
 <div class="experience row">
@@ -230,11 +296,11 @@ A Front End developer Skilled in web development using multiple JS frameworks (R
 		<h4>Ecole Polytechnique Internationale</h4>
 		<p class="experience-period">
 			Sep 2019				- 
-			currently		</p>
+			Jun 2020	</p>
 	</div>
 	<div class="col-md-8">
 		<p>
-			<strong>Master in Computer Science - Computer Software Engineering</strong>
+			<strong>Master in Computer Science - Computer Software Engineering ( M1 : Mention Good)</strong>
 			<span class="hidden-phone">
 				The education is mainly about software engineering/web development, it's based on learning about Java, XML, Database and software architecture.			
 			</span>
@@ -251,6 +317,7 @@ A Front End developer Skilled in web development using multiple JS frameworks (R
 		</p>
 	</div>
 </div>
+
 <div class="experience row">
 	<div class="col-md-4">
 		<h4>Go My Code</h4>
@@ -664,7 +731,31 @@ A Front End developer Skilled in web development using multiple JS frameworks (R
 				
 								
 			</span>
-		</li><li>
+		</li>		
+		<li>
+			<span class="ability-title">Java/J2EE</span>
+			<span class="ability-score">
+			
+							
+				<span class="glyphicon glyphicon-star filled"></span>
+				
+							
+				<span class="glyphicon glyphicon-star filled"></span>
+				
+							
+				<span class="glyphicon glyphicon-star filled"></span>
+				
+							
+				<span class="glyphicon glyphicon-star filled"></span>
+				
+							
+				<span class="glyphicon glyphicon-star "></span>
+				
+								
+			</span>
+		</li>
+		
+		<li>
 			<span class="ability-title">Google Search console</span>
 			<span class="ability-score">
 			
@@ -1008,45 +1099,6 @@ A Front End developer Skilled in web development using multiple JS frameworks (R
 								
 			</span>
 		</li>
-		
-				
-			
-		
-		
-		
-			
-
-			
-		
-		
-		
-				
-			
-		<li>
-			<span class="ability-title">Vue JS</span>
-			<span class="ability-score">
-			
-							
-				<span class="glyphicon glyphicon-star filled"></span>
-				
-							
-				<span class="glyphicon glyphicon-star "></span>
-				
-							
-				<span class="glyphicon glyphicon-star "></span>
-				
-							
-				<span class="glyphicon glyphicon-star "></span>
-				
-							
-				<span class="glyphicon glyphicon-star "></span>
-				
-								
-			</span>
-		</li>
-		
-				
-			
 	</ul>
 </div>
 
@@ -1193,7 +1245,7 @@ A Front End developer Skilled in web development using multiple JS frameworks (R
 	
 			
 		<li>
-			<span class="ability-title">FileZilla (8 years)</span>
+			<span class="ability-title">FileZilla</span>
 			<span class="ability-score">
 			
 							
@@ -1218,7 +1270,7 @@ A Front End developer Skilled in web development using multiple JS frameworks (R
 				
 			
 		<li>
-			<span class="ability-title">Firefox (8 years)</span>
+			<span class="ability-title">Firefox</span>
 			<span class="ability-score">
 			
 							
@@ -1243,7 +1295,31 @@ A Front End developer Skilled in web development using multiple JS frameworks (R
 				
 			
 		<li>
-			<span class="ability-title">MS Office (10+ years)</span>
+			<span class="ability-title">MS Office</span>
+			<span class="ability-score">
+			
+							
+				<span class="glyphicon glyphicon-star filled"></span>
+				
+							
+				<span class="glyphicon glyphicon-star filled"></span>
+				
+							
+				<span class="glyphicon glyphicon-star filled"></span>
+				
+							
+				<span class="glyphicon glyphicon-star filled"></span>
+				
+							
+				<span class="glyphicon glyphicon-star filled"></span>
+				
+								
+			</span>
+		</li>
+				
+			
+		<li>
+			<span class="ability-title">Notepad++</span>
 			<span class="ability-score">
 			
 							
@@ -1268,7 +1344,7 @@ A Front End developer Skilled in web development using multiple JS frameworks (R
 				
 			
 		<li>
-			<span class="ability-title">Mac (5 years)</span>
+			<span class="ability-title">Webkit browsers</span>
 			<span class="ability-score">
 			
 							
@@ -1293,7 +1369,7 @@ A Front End developer Skilled in web development using multiple JS frameworks (R
 				
 			
 		<li>
-			<span class="ability-title">Notepad++ (6 years)</span>
+			<span class="ability-title">Windows</span>
 			<span class="ability-score">
 			
 							
@@ -1318,57 +1394,7 @@ A Front End developer Skilled in web development using multiple JS frameworks (R
 				
 			
 		<li>
-			<span class="ability-title">Webkit browsers (6 years)</span>
-			<span class="ability-score">
-			
-							
-				<span class="glyphicon glyphicon-star filled"></span>
-				
-							
-				<span class="glyphicon glyphicon-star filled"></span>
-				
-							
-				<span class="glyphicon glyphicon-star filled"></span>
-				
-							
-				<span class="glyphicon glyphicon-star filled"></span>
-				
-							
-				<span class="glyphicon glyphicon-star filled"></span>
-				
-								
-			</span>
-		</li>
-		
-				
-			
-		<li>
-			<span class="ability-title">Windows (10+ years)</span>
-			<span class="ability-score">
-			
-							
-				<span class="glyphicon glyphicon-star filled"></span>
-				
-							
-				<span class="glyphicon glyphicon-star filled"></span>
-				
-							
-				<span class="glyphicon glyphicon-star filled"></span>
-				
-							
-				<span class="glyphicon glyphicon-star filled"></span>
-				
-							
-				<span class="glyphicon glyphicon-star filled"></span>
-				
-								
-			</span>
-		</li>
-		
-				
-			
-		<li>
-			<span class="ability-title">Adobe Fireworks (6 years)</span>
+			<span class="ability-title">Adobe Fireworks</span>
 			<span class="ability-score">
 			
 							
@@ -1393,7 +1419,30 @@ A Front End developer Skilled in web development using multiple JS frameworks (R
 				
 			
 		<li>
-			<span class="ability-title">Atlassian / Jira (3+ years)</span>
+			<span class="ability-title">Atlassian / Jira</span>
+			<span class="ability-score">
+			
+							
+				<span class="glyphicon glyphicon-star filled"></span>
+				
+							
+				<span class="glyphicon glyphicon-star filled"></span>
+				
+							
+				<span class="glyphicon glyphicon-star filled"></span>
+				
+							
+				<span class="glyphicon glyphicon-star filled"></span>
+				
+							
+				<span class="glyphicon glyphicon-star "></span>
+				
+								
+			</span>
+		</li>
+					
+		<li>
+			<span class="ability-title">Mysql workbench</span>
 			<span class="ability-score">
 			
 							
@@ -1421,11 +1470,9 @@ A Front End developer Skilled in web development using multiple JS frameworks (R
 </div>
 <div class="col-md-6">
 	<ul class="no-bullets">
-		
-				
-			
+	
 		<li>
-			<span class="ability-title">Mysql workbench (3+ years)</span>
+			<span class="ability-title">Git / Git Flow</span>
 			<span class="ability-score">
 			
 							
@@ -1450,7 +1497,7 @@ A Front End developer Skilled in web development using multiple JS frameworks (R
 				
 			
 		<li>
-			<span class="ability-title">Git / Git Flow (3+ years)</span>
+			<span class="ability-title">Internet Explore 10+</span>
 			<span class="ability-score">
 			
 							
@@ -1475,7 +1522,7 @@ A Front End developer Skilled in web development using multiple JS frameworks (R
 				
 			
 		<li>
-			<span class="ability-title">Internet Explore 10+ (8 years)</span>
+			<span class="ability-title">Wamp</span>
 			<span class="ability-score">
 			
 							
@@ -1500,7 +1547,7 @@ A Front End developer Skilled in web development using multiple JS frameworks (R
 				
 			
 		<li>
-			<span class="ability-title">Wamp (6 year)</span>
+			<span class="ability-title">VS Code</span>
 			<span class="ability-score">
 			
 							
@@ -1525,7 +1572,7 @@ A Front End developer Skilled in web development using multiple JS frameworks (R
 				
 			
 		<li>
-			<span class="ability-title">VS Code(3 years)</span>
+			<span class="ability-title">Sublime Text</span>
 			<span class="ability-score">
 			
 							
@@ -1550,7 +1597,7 @@ A Front End developer Skilled in web development using multiple JS frameworks (R
 				
 			
 		<li>
-			<span class="ability-title">Sublime Text (2 years)</span>
+			<span class="ability-title">NetBeans IDE</span>
 			<span class="ability-score">
 			
 							
@@ -1575,7 +1622,7 @@ A Front End developer Skilled in web development using multiple JS frameworks (R
 				
 			
 		<li>
-			<span class="ability-title">NetBeans IDE (3+ years)</span>
+			<span class="ability-title">Adobe Photoshop</span>
 			<span class="ability-score">
 			
 							
@@ -1600,32 +1647,7 @@ A Front End developer Skilled in web development using multiple JS frameworks (R
 				
 			
 		<li>
-			<span class="ability-title">Adobe Photoshop (6 years)</span>
-			<span class="ability-score">
-			
-							
-				<span class="glyphicon glyphicon-star filled"></span>
-				
-							
-				<span class="glyphicon glyphicon-star filled"></span>
-				
-							
-				<span class="glyphicon glyphicon-star filled"></span>
-				
-							
-				<span class="glyphicon glyphicon-star filled"></span>
-				
-							
-				<span class="glyphicon glyphicon-star "></span>
-				
-								
-			</span>
-		</li>
-		
-				
-			
-		<li>
-			<span class="ability-title">Adobe Illustrator (6 years)</span>
+			<span class="ability-title">Adobe Illustrator</span>
 			<span class="ability-score">
 			
 							
@@ -1653,9 +1675,81 @@ A Front End developer Skilled in web development using multiple JS frameworks (R
 </div>
 
 </div>			</div>
+
+<div class="background-white">
+		<div id="projects" class="container">
+		<h2>Projects</h2>
+<p class="lead">
+“You can do anything you set your mind to.”<br>- Benjamin Franklin
+</p>
+
+<hr>
+
+
+<div class="row">
+
 	
-			
+<div class="col-md-6 col-sm-12 col-xs-12">
+	<figure class="effect">
+		<img src="view\images\project_mals.jpg" alt="Lyxor ETF">
+		
+		<figcaption>
+			<h3>Lyxor ETF</h3>
+			<p>Lyxor ETF, a European asset management specialist and leading ETF issuer.</p>
+			<p><strong>Tags:</strong> <br>Development, Front End, Angular JS, Angular 7, Bootstrap, JSF, jQuery, Javascript, CSS</p>
+			<a href="https://www.lyxoretf.co.uk" target="_blank">View more</a>
+			<span class="icon">
+				<span class="glyphicon glyphicon-new-window"></span>
+			</span>
+		</figcaption> 
+	</figure>
+</div>
+
+
+	<div class="col-md-6 col-sm-12 col-xs-12">
+		<figure class="effect">
+			<img src="view\images\project_soap.jpg" alt="Donation  Management App - Academic project">
+
+			<figcaption>
+				<h3>Donation  Management App - Academic project</h3>
+				<p>Build a Donation  Management App for an academic project.</p>
+				<p><strong>Tags:</strong> <br>Back End, Development, Front End, Bootstrap, Angular JS, Rest API, Java J2EE, JPA, CSS, Tomcat</p>
+				<a href="https://github.com/kabilJbeli/donManagement" target="_blank">View more</a>
+				<span class="icon">
+				<span class="glyphicon glyphicon-new-window"></span>
+			</span>
+			</figcaption>
+		</figure>
+	</div>
+
+
+	<div class="col-md-6 col-sm-12 col-xs-12">
+		<figure class="effect">
+			<img src="view\images\project_oranjebitter.jpg" alt="Academic Finance Management App">
+
+			<figcaption>
+				<h3>Academic Finance Management App</h3>
+				<p>Building a financial app that helps in the creation of a new contracts, products, and creation of a bill for certain credits or products for an academic project. </p>
+				<p><strong>Tags:</strong> <br>Back End, Front End, Java J2EE, EJB, JSF, JPA, Development, Bootstrap, jQuery, CSS, Javascript, Wildfly</p>
+				<a href="https://github.com/kabilJbeli/JBSMA_Project" target="_blank">View more</a>
+				<span class="icon">
+				<span class="glyphicon glyphicon-new-window"></span>
+			</span>
+			</figcaption>
+		</figure>
+	</div>
+
 	
+
+	
+</div>
+
+
+	</div>
+	</div>
+	<!--	<div id="download" class="container">
+<a href="/kabil-jbeli.pdf" class="btn btn-primary" target="_blank">Download a PDF version of my CV</a>
+	</div>-->
 	
 	<div class="background-gray">
 		<div id="contact" class="container">
@@ -1712,7 +1806,7 @@ A Front End developer Skilled in web development using multiple JS frameworks (R
 			<h4 class="modal-title">Your browser is out of date</h4>
 		</div>
 		<div class="modal-body">
-			<p>To get the best possible experience using our site we recommend that you upgrade to a modern web browser. To download a newer web browser click on the Upgrade button.</p>
+			<p>To get the best possible experience using my site i recommend that you upgrade to a modern web browser. To download a newer web browser click on the Upgrade button.</p>
 		</div>
 		<div class="modal-footer">
 			<a href="https://browsehappy.com/" target="_blank" class="btn btn-primary">Upgrade</a>
@@ -1723,6 +1817,7 @@ A Front End developer Skilled in web development using multiple JS frameworks (R
 	<!-- Bootstrap core JavaScript -->
 	<script  src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script  src="view/js/script.js"></script>
+		<script  src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
 	<script  src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.2.0/bootstrap.min.js"></script>
 	
 	<!-- Google Analytics -->

@@ -185,3 +185,16 @@ function searchVersion(pstrDataString) {
     pstrDataString.substring(lnIndex + this.versionSearchString.length + 1)
   );
 }
+$(function(){
+    $('.selectpicker').selectpicker();
+});
+function changeLanguage(event){
+	console.log(event)
+	if(event.target.options.selectedIndex == 0){
+			location.replace('https://www.kabiljbeli.tn/fr');	
+
+	}else{
+				location.replace('https://www.kabiljbeli.tn/en');	
+
+	}
+}

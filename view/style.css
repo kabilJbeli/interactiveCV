@@ -365,6 +365,9 @@ hr {
 }
 
 /* #projects .row { margin: 0px; } // bootstrap 3.1- hack */
+#projects p {
+    font-size: 14px;
+}
 
 #projects .row>div {
 	margin-bottom: 30px;
@@ -641,7 +644,7 @@ figure.effect:hover h3::after {
 }
 
 figure.effect p {
-	padding-top: 10px;
+	padding-top: 0px;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
@@ -653,4 +656,39 @@ figure.effect:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    outline: none !important;
+}
+span.flag-icon.flag-icon-us ,span.flag-icon.flag-icon-fr{
+    margin-right: 5px;
+}
+button.btn.dropdown-toggle.selectpicker.btn-default:focus {
+    border: none !important;
+    outline: none !important;
+}
+.dropdown-menu.open {
+    border-radius: 0px;
+}
+button.btn.dropdown-toggle.selectpicker.btn-default {
+    background: none;
+    border: none;
+    color: #fff;
+    box-shadow: none !important;
+}
+.btn-group.bootstrap-select.fit-width {
+    position: absolute;
+    z-index: 33;
+    right: 5%;
+    top: 5%;
+}
+div#download a:hover{
+	opacity:0.6;
+}
+div#download a {
+    display: table;
+    float: none;
+    margin: auto;
+    width: auto !important;
+	text-decoration:none;
 }
