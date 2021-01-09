@@ -1,7 +1,7 @@
 ---
   deployment:
       tasks:
-        - export DEPLOYPATH=/home/kabiljbe/public_html/
+        - export DEPLOYPATH=/home/kabiljbe/v2.0-Beta-In-Progress.kabiljbeli.tn/
         - /bin/cp -r * $DEPLOYPATH
         - /bin/cp * $DEPLOYPATH
         - /bin cp * $DEPLOYPATH 
