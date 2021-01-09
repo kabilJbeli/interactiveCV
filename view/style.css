@@ -4,10 +4,16 @@ html, body {
 	height: 100%;
 }
 
+
 body {
-	background: #F3EFE0;
 	font-size: 15px;
 	line-height: 1.64;
+		background:url(../make-coming-soon-or-under-maintenance-page-for-your-website.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b {
